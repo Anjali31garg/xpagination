@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.table_head{
+  text-align: left;
+  color: white;
+}
+
+td, th{
+  border-bottom: 1px solid;
+  padding: 8px;
+}
+
+.table_body{
+  background-color: white;
+  text-align: justify;
+}
+
+table{
+  background-color: rgb(33, 135, 111);
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 2px solid rgb(33, 135, 111);
+}
+
+.table_row{
+  border: 1px solid black;
+}
+
+.pagination{
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  background-color: rgb(33, 135, 111);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.page_number{
+  background-color: rgb(33, 135, 111);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+}
